@@ -7,6 +7,7 @@ public class Bin2Dec {
         String bin = sc.next();
         int dec = Integer.parseInt(bin, 2);
         System.out.println("Decimal value: " + dec);
+        
         sc.close();
     }
 }
