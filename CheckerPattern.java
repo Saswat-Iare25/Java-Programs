@@ -13,5 +13,6 @@ public class CheckerPattern {
             System.out.println();
         }
         sc.close();
+        
     }
 }
