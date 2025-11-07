@@ -10,3 +10,4 @@ public class Hex2Dec {
         sc.close();
     }
 }
+
