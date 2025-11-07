@@ -7,6 +7,7 @@ public class Happy {
             int r = n % 10;
             s += r * r;
             n /= 10;
+            
         }
         return s;
     }
