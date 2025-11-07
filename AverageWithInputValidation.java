@@ -8,6 +8,7 @@ public class AverageWithInputValidation {
             System.out.print("Enter a positive integer (-1 to end): ");
             int num = sc.nextInt();
             if (num == -1) break;
+            
             if (num < 0) {
                 System.out.println("Invalid input, try again.");
                 continue;
