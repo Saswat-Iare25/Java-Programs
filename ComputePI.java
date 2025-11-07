@@ -12,6 +12,7 @@ public class ComputePI {
         }
         pi *= 4;
         System.out.println("Approximation of PI = " + pi);
+        
         sc.close();
     }
 }
