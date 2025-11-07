@@ -9,6 +9,7 @@ public class CheckHexStr {
         for (char c : str.toCharArray()) {
             if (!((c >= '0' && c <= '9') || (c >= 'A' && c <= 'F'))) valid = false;
         }
+        
         System.out.println(valid ? "Valid hexadecimal string" : "Invalid hexadecimal string");
         sc.close();
     }
