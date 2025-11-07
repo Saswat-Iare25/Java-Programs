@@ -13,3 +13,4 @@ public class CheckBinStr {
         sc.close();
     }
 }
+
