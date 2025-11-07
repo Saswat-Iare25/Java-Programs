@@ -10,6 +10,8 @@ public class ExchangeCipher {
             if (Character.isLetter(c))
                 result += (char) ('A' + ('Z' - c));
             else result += c;
+
+            
         }
         System.out.println("Ciphertext: " + result);
         sc.close();
