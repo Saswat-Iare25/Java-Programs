@@ -9,3 +9,4 @@ public class Caprekar {
         System.out.println(l + r == n ? "Caprekar" : "Not Caprekar");
     }
 }
+
