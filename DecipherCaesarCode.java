@@ -11,6 +11,7 @@ public class DecipherCaesarCode {
                 plain += (char) (((c - 'A' - 3 + 26) % 26) + 'A');
             else plain += c;
         }
+        
         System.out.println("Plaintext: " + plain);
         sc.close();
     }
