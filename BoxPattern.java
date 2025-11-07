@@ -17,3 +17,4 @@ public class BoxPattern {
         sc.close();
     }
 }
+
