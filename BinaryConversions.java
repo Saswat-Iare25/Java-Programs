@@ -12,3 +12,4 @@ public class BinaryConversions {
         sc.close();
     }
 }
+
