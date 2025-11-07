@@ -11,3 +11,4 @@ public class FloatingPointConversion {
         sc.close();
     }
 }
+
