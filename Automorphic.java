@@ -6,4 +6,5 @@ public class Automorphic {
         int n = sc.nextInt();
         System.out.println((n * n + "").endsWith(n + "") ? "Automorphic" : "Not Automorphic");
     }
+    
 }
