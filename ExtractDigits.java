@@ -9,6 +9,7 @@ public class ExtractDigits {
             int digit = n % 10;
             System.out.print(digit + " ");
             n /= 10;
+            
         }
         sc.close();
     }
