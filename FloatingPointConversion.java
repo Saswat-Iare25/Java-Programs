@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 public class FloatingPointConversion {
@@ -5,6 +6,7 @@ public class FloatingPointConversion {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a floating-point number: ");
         double num = sc.nextDouble();
+        
         long bits = Double.doubleToLongBits(num);
         System.out.println("Binary representation: " + Long.toBinaryString(bits));
         System.out.println("Hexadecimal representation: " + Long.toHexString(bits));
