@@ -7,6 +7,7 @@ public class BinaryConversions {
         String binary = sc.next();
         int decimal = Integer.parseInt(binary, 2);
         System.out.println("Decimal: " + decimal);
+        
         System.out.println("Octal: " + Integer.toOctalString(decimal));
         System.out.println("Hexadecimal: " + Integer.toHexString(decimal).toUpperCase());
         sc.close();
