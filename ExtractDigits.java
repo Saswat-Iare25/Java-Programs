@@ -6,6 +6,7 @@ public class ExtractDigits {
         System.out.print("Enter an integer: ");
         int n = sc.nextInt();
         while (n > 0) {
+            
             int digit = n % 10;
             System.out.print(digit + " ");
             n /= 10;
