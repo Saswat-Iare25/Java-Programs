@@ -10,6 +10,7 @@ public class CaesarCode {
         for (char c : text.toCharArray()) {
             if (Character.isLetter(c))
                 result += (char) (((c - 'A' + 3) % 26) + 'A');
+                
             else result += c;
         }
         System.out.println("Ciphertext: " + result);
