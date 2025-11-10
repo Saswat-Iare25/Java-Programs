@@ -8,6 +8,7 @@ public class IncomeTaxCalculator {
         double tax;
         if (income <= 20000)
             tax = 0;
+            
         else if (income <= 40000)
             tax = 0.1 * (income - 20000);
         else if (income <= 60000)
