@@ -7,6 +7,7 @@ public class CheckBinStr {
         String str = sc.next();
         boolean valid = true;
         for (char c : str.toCharArray()) {
+            
             if (c != '0' && c != '1') valid = false;
         }
         System.out.println(valid ? "Valid binary string" : "Invalid binary string");
