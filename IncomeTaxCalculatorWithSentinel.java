@@ -8,6 +8,7 @@ public class IncomeTaxCalculatorWithSentinel {
             double income = sc.nextDouble();
             if (income == -1) break;
             double tax;
+            
             if (income <= 20000)
                 tax = 0;
             else if (income <= 40000)
