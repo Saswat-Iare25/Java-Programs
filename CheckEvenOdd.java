@@ -4,6 +4,7 @@ class CheckEvenOdd {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter an integer: ");
         int number = sc.nextInt();
+        
         if (number % 2 == 0) System.out.println("EVEN"); else System.out.println("ODD");
         System.out.println("BYE!");
         sc.close();
