@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 public class Bin2Dec {
@@ -5,7 +6,8 @@ public class Bin2Dec {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a binary string: ");
         String bin = sc.next();
-        int dec = Integer.parseInt(bin, 2);
+        int dec = Integer.parseInt(bin, 2); 
+        
         System.out.println("Decimal value: " + dec);
         
         sc.close();
