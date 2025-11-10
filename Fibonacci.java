@@ -6,6 +6,7 @@ public class Fibonacci {
         System.out.print("Enter number of terms: ");
         int n = sc.nextInt();
         int a = 0, b = 1;
+        
         System.out.print(a + " " + b + " ");
         
         for (int i = 3; i <= n; i++) {
