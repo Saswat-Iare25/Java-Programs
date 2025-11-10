@@ -6,6 +6,8 @@ public class Happy {
         while (n > 0) {
             int r = n % 10;
             s += r * r;
+
+            
             n /= 10;
             
         }
