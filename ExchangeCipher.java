@@ -6,6 +6,7 @@ public class ExchangeCipher {
         System.out.print("Enter plaintext: ");
         String text = sc.nextLine().toUpperCase();
         String result = "";
+        
         for (char c : text.toCharArray()) {
             if (Character.isLetter(c))
                 result += (char) ('A' + ('Z' - c));
