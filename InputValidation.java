@@ -8,6 +8,7 @@ public class InputValidation {
         do {
             System.out.print("Enter a number between 0 and 10: ");
             number = sc.nextInt();
+            
             if (number >= 0 && number <= 10) valid = true;
             else System.out.println("Invalid input, try again.");
         } while (!valid);
