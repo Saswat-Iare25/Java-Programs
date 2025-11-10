@@ -1,3 +1,4 @@
+
 import java.util.*;
 
 public class CircularPrime {
@@ -12,7 +13,8 @@ public class CircularPrime {
         String s = "" + n;
         for (int i = 0; i < s.length(); i++) {
             
-            int num = Integer.parseInt(s);
+            int num = Integer.parseInt(s); 
+            
             if (!prime(num)) return false;
             s = s.substring(1) + s.charAt(0);
         }
