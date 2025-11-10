@@ -7,6 +7,7 @@ public class Hex2Dec {
         String hex = sc.next();
         int dec = Integer.parseInt(hex, 16);
         System.out.println("Decimal value: " + dec);
+        
         sc.close();
     }
 }
