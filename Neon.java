@@ -5,6 +5,7 @@ public class Neon {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a number: ");
         int num = sc.nextInt();
+        
         int square = num * num;
         int sum = 0;
 
