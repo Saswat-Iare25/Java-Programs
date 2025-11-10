@@ -8,6 +8,7 @@ public class DecipherCaesarCode {
         String plain = "";
         for (char c : cipher.toCharArray()) {
             if (Character.isLetter(c))
+                
                 plain += (char) (((c - 'A' - 3 + 26) % 26) + 'A');
             else plain += c;
         }
